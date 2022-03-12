@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+.all {
+    border-top: 5px solid #0cc;
+    padding-top: 55px;
+}
+
+.all .introduce .title {
+    color: #099;
+    margin-top: 80px;
+}
+
+.all .introduce .content p {
+    color: #999;
+    line-height: 2em;
+}
+
+.all .introduce .content .p1 {
+    margin-bottom: 40px;
+}
+
+.all .introduce .content .span3 {
+    color: #007bff;
+}
+
+.all .introduce .content span {
+    color: #999;
+}
+
+.all .introduce .content .p5 {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.all .introduce .p6 {
+    color: #099;
+    display: flex;
+    justify-content: end;
+}
+
+.all .Comment {
+    border-top: 5px solid #0CC;
+    margin-top: 10px;
+}
+
+.all .Comment img {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.all .Comment .demo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.all .Comment p {
+    color: #999;
+}
+
+.all .Comment span {
+    color: #099;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .Comment .demo1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    border-top: 1px solid #999;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.all .Report .Yourcomment {
+    color: #099;
+    margin-top: 50px;
+}
+
+.all .Report input {
+    width: 80%;
+    margin-top: 25px;
+}
+
+.all .Report {
+    display: flex;
+    flex-direction: column;
+}
+
+.all .Report .button {
+    background-color: #0CC;
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    ;
+    border: none;
+    padding: 8px 33px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    margin-top: 25px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer span {
+    color: gray;
+}
+
+.footer a {
+    color: #0CC;
+}
+
+.footer .B {
+    display: flex;
+    justify-content: right;
+}
+
+.Categories {
+    border-top: 5px solid #0CC;
+    margin-top: 80px;
+    color: #099;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.Categories li {
+    line-height: 2em;
+}
+
+.Categories .C {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,31 @@
+.main {
+    padding: 80px 80px 35px 80px;
+}
+
+.main .search {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 90px;
+}
+
+.main .search .search-box {
+    border: 1px solid #0CC;
+    width: 500px;
+    padding: 15px 10px;
+    outline: none;
+}
+
+.main .search .search-button {
+    margin-left: 15px;
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: #0CC;
+    border: none;
+    outline: none;
+}
+
+.main .search .search-button:hover {
+    background-color: #09b6b6;
+}

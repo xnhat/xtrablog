@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+.all {
+    border-top: 5px solid #0cc;
+    padding-top: 55px;
+}
+
+.all .introduce h5 {
+    color: #099;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.all .introduce .A {
+    color: #007bff;
+}
+
+.all .introduce p {
+    color: #999;
+}
+
+.all .introduce span {
+    color: #999;
+}
+
+.blog-list {
+    margin-bottom: 120px;
+}
+
+.blog-list .blog {
+    background-color: #F3F4F5;
+    margin-top: 50px;
+    line-height: 2em;
+}
+
+.blog-list .blog i {
+    font-weight: 900;
+    color: #099;
+    font-size: 4em;
+    width: 95px;
+    height: 77px;
+}
+
+.blog-list .blog .icon {
+    display: flex;
+    justify-content: center;
+    text-align: center!important;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.blog-list .blog h5 {
+    color: #099;
+    margin-bottom: 1rem!important;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.blog-list .blog p {
+    color: #999;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.profile-blog {
+    border-top: 5px solid #0CC;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-blog .blog {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile-blog .blog .blog-info {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}

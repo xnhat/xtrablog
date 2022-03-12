@@ -1,0 +1,139 @@
+.main .blog-list .blog {
+    border-top: 4px solid #0cc;
+    padding: 35px 0px;
+}
+
+.main .blog-list .blog .image {
+    width: 100%;
+    height: 245px;
+}
+
+.main .blog-list .blog .title {
+    font-weight: 450;
+    font-size: 26px;
+    color: #0cc;
+    margin: 30px 0;
+}
+
+.main .blog-list .blog .demo {
+    color: #999;
+    margin-bottom: 55px;
+    line-height: 2em;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .blog-list .blog .type-date {
+    color: #0cc;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+
+.main .blog-list .blog .comment-author {
+    color: #999;
+    padding-top: 15px;
+}
+
+.blog-list .footer {
+    border-top: 1px solid;
+    border-top-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.blog-list .footer a {
+    color: #0cc;
+}
+
+.blog-list .footer span {
+    color: gray;
+}
+
+.blog-list .footer .B {
+    display: flex;
+    justify-content: right;
+}
+
+.pagination {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 200px;
+    padding: 0px 15px;
+}
+
+.pagination .Prev {
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin: 0px 0px 0px 8px;
+    padding: 8px 43px;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.pagination .Next {
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0cc;
+    margin: 0px 100px 0px 28px;
+    padding: 8px 43px;
+    color: white;
+}
+
+.pagination .Next:hover {
+    background-color: #09b6b6;
+}
+
+.pagination .Next:focus {
+    border: none;
+}
+
+.page-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-list .ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-list .ul .A {
+    background-color: #00cccc;
+    color: white;
+}
+
+.page-list .ul li {
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    color: #999;
+    background-color: #f0f0f0;
+}
+
+.page-list .page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-right: 16px;
+    color: #999;
+}
+
+.page-list .ul li:hover {
+    background-color: #00cccc;
+    color: white;
+}
